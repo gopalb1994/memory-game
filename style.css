@@ -1,0 +1,27 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 400px;
+  margin: 50px;
+  display: inline-block;
+  transition: all ease-in 0.5s;
+}
+
+#game {
+  background: rgba(0, 0, 0, 0.685);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px 200px;
+}
+
+h1, h2 {
+  height: 10vh;
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.685);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
